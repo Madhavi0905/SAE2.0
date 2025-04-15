@@ -1,0 +1,74 @@
+h1{ 
+    color: #f7f9f8;
+
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 892.3076782226562;
+    height: 121.53846740722656;
+    top: 160.46px;
+    left: 34px;
+
+}
+body{
+    background-color: black;
+}
+.container{
+    display:grid;
+    background-color:black;
+    grid-template-areas: 
+    'a b d'
+    'a c c';
+    height:100vh;
+    padding:10px;
+    gap: 10px;
+}
+
+.a{ 
+    grid-area: a;
+    width: 442.91796875;
+    height: 670.7692260742188;
+    top: 375.69px;
+    left: 34px;
+    border-radius: 15px;
+   
+    
+    background: #f7f9f8;
+
+}
+.d{ 
+    width: 434.615234375;
+    height: 315.3846130371094;
+    top: 372.62px;
+    left: 970px;
+    border-radius: 15px;
+    background: #f7f9f8;
+
+}
+.b{ 
+    grid-area:b;
+    width: 434.615234375;
+    height: 315.3846130371094;
+    top: 372.62px;
+    left: 502px;
+    border-radius: 15px;
+    background-image: url("");
+    background:red;
+
+    
+
+}
+.c{ 
+    grid-area:c;
+    width: 902.615234375;
+    height: 327.6922912597656;
+    top: 718.77px;
+    left: 503.38px;
+    border-radius: 15px;
+    background-image: url('C:\Users\madha\OneDrive\Pictures\b0d82704e6acdc76593a36cd11a27680.jpeg');
+
+    background: #94c31e;
+
+}
